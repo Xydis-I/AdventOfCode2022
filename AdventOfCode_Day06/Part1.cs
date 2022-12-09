@@ -14,7 +14,7 @@
                 for (var i = 3; i < line.Length; i++)
                 {
                     var hash = new HashSet<char>();
-                    for (int j = 0; j < 4; j++)
+                    for (var j = 0; j < 4; j++)
                         hash.Add(line[i - j]);
 
                     if (hash.Count != 4) continue;
